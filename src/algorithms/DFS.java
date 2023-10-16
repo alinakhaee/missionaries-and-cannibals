@@ -28,8 +28,8 @@ public class DFS {
             }
             if(Utils.goalCheck(currentState)){
                 Utils.printAnswer(currentState);
-                System.out.println("Solution cost: " + currentState.cost());
-                System.out.println("Goal reached after " + numberOfExpandedNodes + " iterations");
+                System.out.println("DFS - Solution cost: " + currentState.cost());
+                System.out.println("DFS - Goal reached after " + numberOfExpandedNodes + " iterations");
                 return;
             }
 

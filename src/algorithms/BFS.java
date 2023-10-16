@@ -31,8 +31,8 @@ public class BFS {
             }
             if(Utils.goalCheck(currentState)){
                 Utils.printAnswer(currentState);
-                System.out.println("Solution cost: " + currentState.cost());
-                System.out.println("Goal reached after " + numberOfExpandedNodes + " node expansions");
+                System.out.println("BFS - Solution cost: " + currentState.cost());
+                System.out.println("BFS - Goal reached after " + numberOfExpandedNodes + " node expansions");
                 return;
             }
 

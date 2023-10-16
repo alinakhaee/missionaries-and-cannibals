@@ -28,8 +28,8 @@ public class Greedy {
             }
             if(Utils.goalCheck(currentState)){
                 Utils.printAnswer(currentState);
-                System.out.println("Solution cost: " + currentState.cost());
-                System.out.println("Goal reached after " + numberOfExpandedNodes + " iterations");
+                System.out.println("Greedy - Solution cost: " + currentState.cost());
+                System.out.println("Greedy - Goal reached after " + numberOfExpandedNodes + " iterations");
                 return;
             }
 

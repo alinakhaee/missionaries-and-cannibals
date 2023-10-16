@@ -31,8 +31,8 @@ public class AStar {
             }
             if(Utils.goalCheck(currentState)){
                 Utils.printAnswer(currentState);
-                System.out.println("Solution cost: " + currentState.cost());
-                System.out.println("Goal reached after " + numberOfExpandedNodes + " iterations");
+                System.out.println("A* - Solution cost: " + currentState.cost());
+                System.out.println("A* - Goal reached after " + numberOfExpandedNodes + " iterations");
                 return;
             }
 
